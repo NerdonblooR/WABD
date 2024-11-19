@@ -1,0 +1,43 @@
+{
+    "address": {
+        "0": "127.0.0.1:7074",
+        "1": "127.0.0.1:7075",
+        "2": "127.0.0.1:7076"
+    },
+    "just_reply": false,
+    "do_profile": false,
+    "do_monitor": false,
+    "thrifty": false,
+    "chan_buffer_size": 4096,
+    "buffer_size": 4096,
+    "batch_size": 100,
+    "multiversion": false,
+    "shard_number": 4,
+    "watermark_optimization": true,
+    "abd_type": 1,
+    "read_thresh": 100,
+    "offset": 50,
+    "delay": 0,
+    "worker_num": 1,
+    "benchmark": {
+        "T": 10,
+        "N": 0,
+        "K": 1000,
+        "W": 0.5,
+        "Throttle": 500,
+        "Concurrency": 200,
+        "Distribution": "zipfan",
+        "LinearizabilityCheck": false,
+        "Conflicts": 10,
+        "Min": 0,
+        "Mu": 500,
+        "Sigma": 50,
+        "Move": false,
+        "Speed": 10,
+        "ZipfianS": 2.0,
+        "ZipfianV": 1.0,
+        "ZipfianTheta": 0.3,
+        "Lambda": 0.01,
+        "DumpLatency":true
+    }
+}
